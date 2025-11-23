@@ -1,0 +1,31 @@
+body{
+    background-color: azure;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+aside{
+    width: 20%;
+}
+main{
+    width: 50%;
+}
+
+.chat-box{
+    margin: 10px;
+    background-color: cadetblue;
+    border: 2px solid black;
+
+}
+
+.chat-box h3{
+    display: inline;
+    background-color: whitesmoke;
+    border-right: 2px dashed black;
+    border-bottom: 2px dashed black;
+}
+
