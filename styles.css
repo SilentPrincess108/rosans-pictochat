@@ -127,3 +127,43 @@ header h1{
 
 
 /* Styling for Right-Aside on Homepage*/
+
+#right-aside h1{
+    margin: 0;
+}
+
+.poster-container{
+    height: 850px;
+    overflow-y: hidden;
+    border: 3px solid #124f7b;
+    border-radius: 10px;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    animation: scroll 15s linear infinite;
+    padding-top: 20px;
+}
+
+.poster{
+    flex: 0 0 500px;
+    height: 500px;
+    width: 100%;
+    background-color: whitesmoke;
+    gap: 20px;
+    text-align: center;
+    border-top: 3px solid #124f7b;
+    border-bottom: 3px solid #124f7b;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-3120px);
+    }
+
+}
