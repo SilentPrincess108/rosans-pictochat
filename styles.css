@@ -67,12 +67,17 @@ li a:hover{
     border-bottom-right-radius: 10px;
 }
 
+.gif-box{
+    margin: 30px;
+    text-align: center;
+}
+
 .gif-box img{
     width: 300px;
     border-radius: 10px;
-    margin: auto;
     flex: 1 1 auto;
     border: 3px solid #124f7b;
+    margin-bottom: 10px;
 }
 
 /* Styling for Main Section on Homepage*/
