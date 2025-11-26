@@ -22,7 +22,21 @@ body{
     margin-top: 30px;
 }
 
-/* Styling for Left-Aside Section on Homepage*/
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track{
+    background-color: whitesmoke;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb{
+    background-color: #6f9cc5;
+}
+
+/* Styling for Left-Aside Section on Homepage */
 aside{
     width: 20%;
     display: flex;
@@ -114,6 +128,8 @@ header h1{
     height: 250px;
     max-width: 100%;
     min-width: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .chat-box h3{
@@ -146,9 +162,7 @@ header h1{
 .group{
     display: flex;
     flex-direction: column;
-    gap: 20px;
     animation: scroll 15s linear infinite;
-    padding-top: 20px;
 }
 
 .poster{
@@ -158,8 +172,12 @@ header h1{
     background-color: whitesmoke;
     gap: 20px;
     text-align: center;
-    border-top: 3px solid #6f9cc5;
-    border-bottom: 3px solid #6f9cc5;
+}
+
+.poster-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 @keyframes scroll {
@@ -167,7 +185,7 @@ header h1{
         transform: translateY(0);
     }
     100%{
-        transform: translateY(-3120px);
+        transform: translateY(-3000px);
     }
 
 }
