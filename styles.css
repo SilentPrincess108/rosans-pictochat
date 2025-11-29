@@ -1,9 +1,10 @@
 body{
-   background-color: #c9e4fd;
+   background: linear-gradient(#c9e4fd, whitesmoke, #c9e4fd);
    height: 100vh;
    color: #124f7b;
    font-size: 30px;
 }
+
 
 @font-face {
     font-family: "Pictochat";
@@ -44,41 +45,49 @@ aside{
     gap: 30px;
 }
 
+nav{
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px #6f9cc5;
+}
+
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #6f9cc5;
 }
 
+li{
+    background: linear-gradient(#c9e4fd, whitesmoke);
+    border-bottom: 1px solid #364e70;
+}
 
 li a{
     display: block;
-    color: whitesmoke;
+    color: #364e70;
     text-decoration: none;
     padding: 10px;
 }
 
 li a:hover{
-    background-color: whitesmoke;
-    color: #124f7b;
+    background-color: #c9e4fd;
+    color: whitesmoke;
 }
 
 .titles{
-    background-color: #364e70;
+    background-color: #6f9cc5;
     color: whitesmoke;
     padding: 15px;
     margin: 0%;
 }
 
-#top{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.titles #top{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-#bottom{
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+.titles #bottom{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .gif-box{
@@ -88,22 +97,24 @@ li a:hover{
 
 .gif-box img{
     width: 100%;
-    border-radius: 10px;
-    border: 3px solid #124f7b;
+    border-radius: 5px;
+    border: 3px solid #6f9cc5;
+    box-shadow: 0px 3px 10px #6f9cc5;
     margin-bottom: 10px;
 }
 
 /* Styling for Main Section on Homepage*/
 main{
     width: 50%;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 header{
     background-color: #6f9cc5;
-    border: 3px solid #124f7b;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: whitesmoke;
+    text-align: center;
 }
 
 header h1{
@@ -111,20 +122,22 @@ header h1{
 }
 
 #sub-title{
-    background-color: #364e70;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    background-color: #6f9cc5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     color: whitesmoke;
     padding: 10px;
     margin: 0%;
 }
 
 .chat-box{
+    flex: 1 1 auto;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: whitesmoke;
     border: 3px solid #6f9cc5;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px #6f9cc5;
     height: 250px;
     max-width: 100%;
     min-width: 200px;
@@ -135,6 +148,7 @@ header h1{
 .chat-box h3{
     display: inline;
     background-color: #6f9cc5;
+    color: whitesmoke;
     border-bottom-right-radius: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -156,7 +170,8 @@ header h1{
     height: 850px;
     overflow-y: hidden;
     border: 3px solid #6f9cc5;
-    border-radius: 10px;
+    box-shadow: 0px 3px 10px #6f9cc5;
+    border-radius: 5px;
 }
 
 .group{
