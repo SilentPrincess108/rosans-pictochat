@@ -103,6 +103,22 @@ li a:hover{
     margin-bottom: 10px;
 }
 
+#plush{
+    display: flex;
+    justify-content: center;
+}
+
+#plush img{
+    max-width: 200px;
+    flex: 1 1 auto;
+    transition: transform 0.5s ease;
+}
+
+#plush img:hover{
+    transform: scale(1.10);
+}
+
+
 /* Styling for Main Section on Homepage*/
 main{
     width: 50%;
@@ -113,11 +129,12 @@ header{
     background-color: #6f9cc5;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    box-shadow: 0px 3px 10px #6f9cc5;
     color: whitesmoke;
     text-align: center;
 }
 
-header h1{
+header h1, h2{
     margin: 5px;
 }
 
