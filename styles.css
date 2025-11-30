@@ -147,6 +147,10 @@ header h1, h2{
     margin: 0%;
 }
 
+#clock{
+    text-align: center;
+}
+
 .chat-box{
     flex: 1 1 auto;
     margin-top: 20px;
