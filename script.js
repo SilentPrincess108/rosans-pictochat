@@ -14,7 +14,7 @@ console.log(game);
 game = "TOTK";
 console.log(game);
 
-console.dir(document.body);
-document.body.innerHTML = "<h1>Hello World!</h1>";
-document.body.style.color = "blue";
-document.body.style.backgroundColor = "yellow"
+//console.dir(document.body);
+//document.body.innerHTML = "<h1>Hello World!</h1>";
+//document.body.style.color = "blue";
+//document.body.style.backgroundColor = "yellow"
