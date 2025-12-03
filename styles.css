@@ -27,7 +27,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 75px;
     gap: 30px;
 }
 
@@ -63,7 +63,7 @@ body{
 }
 
 #game-item img{
-    width: 100px;
+    width: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
