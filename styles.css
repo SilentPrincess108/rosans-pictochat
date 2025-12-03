@@ -16,11 +16,82 @@ body{
     letter-spacing: 2px;
 }
 
-.main-container{
+.home-container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 30px;
+}
+
+.game-cat-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.game-list{
+    padding: 10px;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.selected{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+.game-card{
+    width: 400px;
+    height: 400px;
+    flex: 1 1 auto;
+}
+
+#game-item{
+    min-width: 200px;
+    min-height: 200px;
+    flex: 1 1 1;
+    transition: border 0.5s ease;
+}
+
+#game-item img{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #c9e4fd;
+}
+
+.game-card:hover, #game-item:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 25px #6f9cc5 inset;
+}
+
+.game-card img{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #c9e4fd;
+}
+
+.game-card, #game-item{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 40px #6f9cc5 inset;
+    border-radius: 10px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 ::-webkit-scrollbar{
@@ -93,6 +164,11 @@ li a:hover{
 .gif-box{
     text-align: center;
     flex: 1 1 auto;
+    transition: transform 0.1s ease;
+}
+
+.gif-box:hover{
+    transform: scale(1.03) rotate(-1deg);
 }
 
 .gif-box img{
@@ -142,6 +218,7 @@ header h1, h2{
     background-color: #6f9cc5;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    box-shadow: 0px 3px 10px #6f9cc5;
     color: whitesmoke;
     padding: 10px;
     margin: 0%;
@@ -164,6 +241,12 @@ header h1, h2{
     min-width: 200px;
     overflow: scroll;
     overflow-x: hidden;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.chat-box:hover{
+    transform: scale(1.03) rotate(1deg);
+    box-shadow: 0px 3px 15px #6f9cc5;
 }
 
 .chat-box h3{
