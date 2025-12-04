@@ -19,5 +19,5 @@ console.log(game);
 //document.body.style.color = "blue";
 //document.body.style.backgroundColor = "yellow"
 
-page = document.getElementById("sub-title");
-page.append(" I hope you enjoy your time here!");
+//page = document.getElementById("sub-title");
+//page.append(" I hope you enjoy your time here!");
