@@ -18,3 +18,6 @@ console.log(game);
 //document.body.innerHTML = "<h1>Hello World!</h1>";
 //document.body.style.color = "blue";
 //document.body.style.backgroundColor = "yellow"
+
+page = document.getElementById("sub-title");
+page.append(" I hope you enjoy your time here!");
