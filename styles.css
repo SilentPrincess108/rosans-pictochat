@@ -59,10 +59,10 @@ body{
     min-width: 200px;
     min-height: 200px;
     flex: 1 1 1;
-    transition: border 0.5s ease;
+    transition: border 0.1s ease;
 }
 
-.game-item a, img{
+.game-item a, .game-item img{
     width: 150px;
     display: block;
     margin-left: auto;
@@ -72,7 +72,7 @@ body{
 }
 
 .game-card:hover, .game-item:hover{
-    transform: scale(1.05);
+    transform: scale(1.10);
     box-shadow: 0px 0px 25px #6f9cc5 inset;
 }
 
@@ -137,11 +137,13 @@ li a{
     color: #364e70;
     text-decoration: none;
     padding: 10px;
+    transition: letter-spacing 0.5s ease, background-color 0.5s ease, color 0.5s ease;
 }
 
 li a:hover{
     background-color: #c9e4fd;
     color: whitesmoke;
+    letter-spacing: 4px;
 }
 
 .titles{
@@ -344,14 +346,25 @@ header h1, h2{
 
 /*Styling for Game Page*/
 #left-section, #right-section{
-    width: 25%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
+#left-section{
+    width: 25%;
+}
+
+#right-section{
+    width: 15%;
+}
+
+#left-section h3{
+    text-align: center;
+}
+
 #main-section{
-    width: 30%;
+    width: 40%;
     display: flex;
     flex-direction: column;
 }
@@ -360,4 +373,27 @@ header h1, h2{
     width: 100%;
     height: 600px;
     background-color: #6f9cc5;
+    border: 3px solid #6f9cc5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #6f9cc5;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-poster img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.game-poster:hover{
+    transform: scale(1.05) rotate(-1deg);
+    box-shadow: 0px 0px 15px;
+}
+
+#completion-list{
+    box-shadow: 0px 0px 10px #6f9cc5;
+}
+
+#completion-list li{
+    padding: 10px;
 }
