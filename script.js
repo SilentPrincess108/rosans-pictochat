@@ -21,3 +21,10 @@ console.log(game);
 
 //page = document.getElementById("sub-title");
 //page.append(" I hope you enjoy your time here!");
+
+//getting an element via id
+title = document.getElementById("notFound");
+title.append(" Work in progress!!");
+
+title1 = document.querySelector("#notFound");
+title1.append(" Under Construction!")

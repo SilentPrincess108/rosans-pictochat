@@ -397,3 +397,7 @@ header h1, h2{
 #completion-list li{
     padding: 10px;
 }
+
+#notFound{
+    text-align: center;
+}
