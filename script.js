@@ -26,5 +26,35 @@ console.log(game);
 title = document.getElementById("notFound");
 title.append(" Work in progress!!");
 
-title1 = document.querySelector("#notFound");
-title1.append(" Under Construction!")
+//append vs appendChild
+//append: can append elements and strings
+//appendChild: can only append elements
+
+//let body = document.body;
+
+//Creating elements
+//let div = document.createElement("div"); //only creates a reference to an element, does not add to page
+//body.append(div); //adds the element to the html
+
+//adding text to elements
+//div.innerText = "Hello World";
+//div.innerHTML = "<strong>Hello World!</strong>"; //allows us to add html formatting to a string
+//div.textContent = "Hello World 2";
+
+//let strong = document.createElement("strong");
+//strong.innerText = "Hello World 2!"; //more secure way to do this
+//div.append(strong);
+
+//innerText -> only outputs and displays text as html file would 
+//textContent -> outputs all text content includin spacing, indentation, etc, according to how it looks in the html itself
+
+let body = document.body;
+let div = document.querySelector("div");
+spanHi = document.querySelector("#hi");
+spanBye = document.querySelector("#bye");
+
+//Removing Elements
+//spanBye.remove();
+//div.append(spanBye);
+
+console.log(spanHi.title);
