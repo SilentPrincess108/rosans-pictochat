@@ -96,7 +96,6 @@ game.forEach(item =>{
     })
 })
 
-
 console.log(clicked);
 
 //game.addEventListener("click", doSomething());
