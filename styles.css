@@ -369,6 +369,10 @@ header h1, h2{
     flex-direction: column;
 }
 
+#thoughts-text{
+    margin: 20px;
+}
+
 .game-poster{
     width: 100%;
     height: 600px;

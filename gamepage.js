@@ -5,6 +5,10 @@ console.log(gameSelected);
 
 title = document.getElementById("title");
 thoughts = document.getElementById("thoughts-text");
+date = document.getElementById("date");
+studio = document.getElementById("studio");
+genre = document.getElementById("genre");
+poster = document.getElementById("poster");
 
 fetch("games.json")
     .then(response => response.json())
@@ -13,6 +17,10 @@ fetch("games.json")
             if (game.id == gameSelected){
                 title.innerText = game.title;
                 thoughts.innerText = game.thoughts;
+                date.innerText = "Release Date: " + game.release;
+                studio.innerText = "Studio: " + game.studio;
+                genre.innerText = "Genre: " + game.genre;
+                poster.setAttribute("src", game.poster);
             }
         })
     })

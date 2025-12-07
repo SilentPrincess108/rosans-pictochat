@@ -2,6 +2,9 @@
     {
         "id":"botw",
         "title":"The Legend of Zelda: Breath of the Wild",
+        "release":"03/03/2017",
+        "studio":"Nintendo",
+        "genre":"Action-Adventure",
         "poster":"images/botw_poster2.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
@@ -9,6 +12,9 @@
     {
         "id":"totk",
         "title":"The Legend of Zelda: Tears of the Kingdom",
+        "release":"05/12/2023",
+        "studio":"Nintendo",
+        "genre":"Action-Adventure",
         "poster":"images/totk_poster.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
@@ -16,6 +22,9 @@
     {
         "id":"re4r",
         "title":"Resident Evil 4: Remake",
+        "release":"03/24/2023",
+        "studio":"Capcom",
+        "genre":"Survival Horror",
         "poster":"images/re4r_poster.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
@@ -23,13 +32,19 @@
     {
         "id":"p3p",
         "title":"Persona 3 Portable",
-        "poster":"images/p3_cover.jpg",
+        "release":"01/01/2009",
+        "studio":"Atlus",
+        "genre":"RPG",
+        "poster":"images/persona3_poster.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
     },
     {
         "id":"dbh",
         "title":"Detroit: Become Human",
+        "release":"05/25/2018",
+        "studio":"Quantic Dream",
+        "genre":"Action-Adventure",
         "poster":"images/dbh_poster.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
@@ -37,6 +52,9 @@
     {
         "id":"aai",
         "title":"Ace Attorney Investigations",
+        "release":"09/06/2024",
+        "studio":"Capcom",
+        "genre":"Courtroom simulation",
         "poster":"images/botw_poster2.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
