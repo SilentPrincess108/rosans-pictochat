@@ -8,11 +8,11 @@
 console.log("Hello, World!");
 console.log("My name is Rosan!");
 
-let game = "BOTW";
-console.log(game);
+//let game = "BOTW";
+//console.log(game);
 
-game = "TOTK";
-console.log(game);
+//game = "TOTK";
+//console.log(game);
 
 //console.dir(document.body);
 //document.body.innerHTML = "<h1>Hello World!</h1>";
@@ -23,8 +23,8 @@ console.log(game);
 //page.append(" I hope you enjoy your time here!");
 
 //getting an element via id
-title = document.getElementById("notFound");
-title.append(" Work in progress!!");
+//title = document.getElementById("notFound");
+//title.append(" Work in progress!!");
 
 //append vs appendChild
 //append: can append elements and strings
@@ -48,13 +48,59 @@ title.append(" Work in progress!!");
 //innerText -> only outputs and displays text as html file would 
 //textContent -> outputs all text content includin spacing, indentation, etc, according to how it looks in the html itself
 
-let body = document.body;
-let div = document.querySelector("div");
-spanHi = document.querySelector("#hi");
-spanBye = document.querySelector("#bye");
+//let body = document.body;
+//let div = document.querySelector("div");
+//spanHi = document.querySelector("#hi");
+//spanBye = document.querySelector("#bye");
 
 //Removing Elements
 //spanBye.remove();
 //div.append(spanBye);
 
-console.log(spanHi.title);
+//console.log(spanHi.title);
+
+//event listeners
+//let grandparent = document.querySelector(".grandparent");
+//let parent = document.querySelector(".parent");
+//let child = document.querySelector(".child");
+
+//first parameter is event type
+//second parameter is what to do when event is triggered
+//third parameter is options object ->  
+
+//grandparent.addEventListener("click", e => {
+    //console.log("Grandparent");
+//})
+
+//parent.addEventListener("click", e => {
+    //console.log("Parent");
+//})
+
+//child.addEventListener("click", e => {
+    //console.log("Child");
+//})
+
+//document.addEventListener("click", e => {
+    //console.log("Document");
+    //e.stopPropagation();
+//})
+
+const game = document.querySelectorAll(".game-item");
+let clicked = null;
+
+
+game.forEach(item =>{
+    item.addEventListener("click", () =>{
+        console.log("You clicked: ", item.id);
+        clicked = item.id;
+    })
+})
+
+
+console.log(clicked);
+
+//game.addEventListener("click", doSomething());
+
+//function doSomething(){
+    //console.log("Hello World");
+//}
