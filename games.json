@@ -1,35 +1,41 @@
 [
     {
+        "id":"botw",
         "title":"The Legend of Zelda: Breath of the Wild",
         "poster":"images/botw_poster2.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
     },
     {
+        "id":"totk",
         "title":"The Legend of Zelda: Tears of the Kingdom",
         "poster":"images/totk_poster.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
     },
     {
+        "id":"re4r",
         "title":"Resident Evil 4: Remake",
         "poster":"images/re4r_poster.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
     },
     {
+        "id":"p3p",
         "title":"Persona 3 Portable",
         "poster":"images/p3_cover.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
     },
     {
+        "id":"dbh",
         "title":"Detroit: Become Human",
         "poster":"images/dbh_poster.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
     },
     {
+        "id":"aai",
         "title":"Ace Attorney Investigations",
         "poster":"images/botw_poster2.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",

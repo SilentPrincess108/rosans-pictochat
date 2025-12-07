@@ -84,22 +84,3 @@ console.log("My name is Rosan!");
     //console.log("Document");
     //e.stopPropagation();
 //})
-
-const game = document.querySelectorAll(".game-item");
-let clicked = null;
-
-
-game.forEach(item =>{
-    item.addEventListener("click", () =>{
-        console.log("You clicked: ", item.id);
-        clicked = item.id;
-    })
-})
-
-console.log(clicked);
-
-//game.addEventListener("click", doSomething());
-
-//function doSomething(){
-    //console.log("Hello World");
-//}
