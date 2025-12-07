@@ -7,6 +7,7 @@
         "genre":"Action-Adventure",
         "poster":"images/botw_poster2.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
+        "cover":"images/botw_cover.jpg",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
     },
     {
@@ -16,6 +17,7 @@
         "studio":"Nintendo",
         "genre":"Action-Adventure",
         "poster":"images/totk_poster.jpg",
+        "cover":"images/totk_cover.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
     },
@@ -26,6 +28,7 @@
         "studio":"Capcom",
         "genre":"Survival Horror",
         "poster":"images/re4r_poster.jpg",
+        "cover":"images/re4r_cover.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
     },
@@ -55,7 +58,7 @@
         "release":"09/06/2024",
         "studio":"Capcom",
         "genre":"Courtroom simulation",
-        "poster":"images/botw_poster2.jpg",
+        "poster":"images/aai_poster.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
     }
