@@ -3,6 +3,14 @@ const game_cover = document.getElementById("game-cover");
 const game_title = document.getElementById("game-title");
 const game = document.querySelectorAll(".game-item");
 let cover = null;
+let game_data = {};
+
+fetch("games.json")
+    .then(response => response.json())
+    .then(data =>{
+        game_data = data;
+    })
+    .catch(err => console.error("Error loading JSON: ", err));
 
 game.forEach(item =>{
     item.addEventListener("click", () =>{
@@ -11,8 +19,11 @@ game.forEach(item =>{
     })
 
     item.addEventListener("mouseover", () =>{
-        cover = item.id;
-        console.log(cover);
-        game_cover.setAttribute("src", "images/" + item.id + "_cover.jpg");
+        game_data.forEach(game =>{
+            if (item.id == game.id){
+                game_cover.setAttribute("src", game.cover);
+                game_title.innerText = game.title;
+            }
+        })
     })
 })

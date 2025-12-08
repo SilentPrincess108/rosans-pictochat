@@ -39,6 +39,7 @@
         "studio":"Atlus",
         "genre":"RPG",
         "poster":"images/persona3_poster.jpg",
+        "cover":"images/p3p_cover.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
     },
@@ -49,6 +50,7 @@
         "studio":"Quantic Dream",
         "genre":"Action-Adventure",
         "poster":"images/dbh_poster.jpg",
+        "cover":"images/dbh_cover.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
     },
@@ -59,6 +61,7 @@
         "studio":"Capcom",
         "genre":"Courtroom simulation",
         "poster":"images/aai_poster.jpg",
+        "cover":"images/aai_cover.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
     }
