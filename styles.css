@@ -502,5 +502,6 @@ header h1, h2{
 .content{
     background-color: whitesmoke;
     border: 3px solid #618eb6;
+    border-radius: 2px;
     max-width: 100%;
 }
