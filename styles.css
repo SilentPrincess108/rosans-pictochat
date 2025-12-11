@@ -29,6 +29,10 @@ body{
     margin-top: 20px;
 }
 
+#date h2{
+    color: #618eb6;
+}
+
 footer{
     padding: 10px;
     margin: 10px;
@@ -484,6 +488,16 @@ header h1, h2{
 .activity-log-container header{
     padding: 10px;
     margin-bottom: 5px;
+}
+
+#left-aside, #right-aside{
+    display: flex;
+    flex-direction: column;
+}
+
+#zelda-amiibo{
+    width: 100%;
+    
 }
 
 .collapsible{
