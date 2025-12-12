@@ -496,23 +496,8 @@ header h1, h2{
     flex-direction: column;
 }
 
-.keychains{
-    flex: 1 1 auto;
-    background-image: url(images/pole.png);
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-
-}
-
-#link-keychain{
-    flex: 0 1 auto;
-}
-
 #zelda-amiibo{
     width: 100%;
-    
 }
 
 .collapsible{
