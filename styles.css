@@ -483,6 +483,7 @@ header h1, h2{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    overflow-x: hidden;
 }
 
 .activity-log-container header{
@@ -493,6 +494,20 @@ header h1, h2{
 #left-aside, #right-aside{
     display: flex;
     flex-direction: column;
+}
+
+.keychains{
+    flex: 1 1 auto;
+    background-image: url(images/pole.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+#link-keychain{
+    flex: 0 1 auto;
 }
 
 #zelda-amiibo{
