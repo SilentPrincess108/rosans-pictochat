@@ -1,4 +1,6 @@
+//JS FOR COLLAPSIBLE TOGGLE
 const coll = document.querySelectorAll(".collapsible");
+
 
 console.log(coll);
 
@@ -14,3 +16,23 @@ coll.forEach(btn => {
         }
     })
 })
+
+//JS FOR CONTENT OF GAME LOGS
+contents = document.querySelectorAll(".content")
+text = document.getElementById("content-text");
+image = document.getElementById("content-img")
+
+fetch("activitylog.json")
+    .then(response => response.json())
+    .then(data => {
+        contents.forEach(log =>{
+            data.forEach(item => {
+                if (log.id == item.id){
+                    text = log.querySelector("#content-text");
+                    image = log.querySelector("#content-img")
+                    text.innerText = item.content;
+                    image.setAttribute("src", item.img);
+                }
+            })
+        })
+    })

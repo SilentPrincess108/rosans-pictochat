@@ -263,12 +263,14 @@ li a:hover{
 #plush{
     display: flex;
     justify-content: center;
-    margin: auto;
+    width: 100%;
+    height: 300px;
+
 }
 
 #plush img{
-    max-width: 250px;
-    flex: 1 1 auto;
+    width: 100%;
+    object-fit: contain;
     transition: transform 0.5s ease;
 }
 
@@ -490,24 +492,31 @@ header h1, h2{
     margin-bottom: 5px;
 }
 
-#left-aside, #right-aside{
+.activity-log-container #left-aside, #right-aside{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
-#left-aside{
+.activity-log-container #left-aside{
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-#currently{
+#container{
     width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#currently{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#right-aside{
+.activity-log-container #right-aside{
     padding: 10px;
     text-align: center;
 }
@@ -573,4 +582,5 @@ header h1, h2{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     max-width: 100%;
+    padding: 10px;
 }

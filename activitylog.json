@@ -1,0 +1,12 @@
+[
+    {
+        "id":"log1",
+        "content":"Super exciting so far!",
+        "img":"images/test_img2.jpg"
+    },
+    {
+        "id":"log2",
+        "content":"Blah, blah, blah2",
+        "img":"images/test_img2.jpg"
+    }
+]
