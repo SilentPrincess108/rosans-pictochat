@@ -64,5 +64,16 @@
         "cover":"images/aai_cover.jpg",
         "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
         "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
+    },
+    {
+        "id":"tloz-mm",
+        "title":"The Legend of Zelda: Majora's Mask",
+        "release":"10/26/2000",
+        "studio":"Nintendo",
+        "genre":"Action-Adventure",
+        "poster":"images/mm_poster.jpg",
+        "cover":"images/mm_cover.jpg",
+        "thoughts":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks",
+        "highlights":"dsaklfhs hrfuiehfdjhfdfhu hfjdkfhdj fhjdskfhdjks"
     }
 ]
