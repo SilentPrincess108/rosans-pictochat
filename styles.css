@@ -494,7 +494,7 @@ header h1, h2{
 
 .activity-log-container #left-aside, #right-aside{
     display: flex;
-    justify-content: space-between;
+    
 }
 
 .activity-log-container #left-aside{
@@ -514,6 +514,24 @@ header h1, h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#random-gif{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transition: all 0.2s ease;
+}
+
+#random-gif:hover{
+    transform: scale(1.20) rotate(-360deg);
+}
+
+#random-gif img{
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .activity-log-container #right-aside{
@@ -583,4 +601,12 @@ header h1, h2{
     border-bottom-right-radius: 5px;
     max-width: 100%;
     padding: 10px;
+}
+
+#content-text{
+    line-height: 30px;
+}
+
+#content-img{
+    width: 100%;
 }

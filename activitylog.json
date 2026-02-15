@@ -1,12 +1,12 @@
 [
     {
         "id":"log1",
-        "content":"Super exciting so far!",
-        "img":"images/test_img2.jpg"
+        "content":"I've finally started playing Majora's Mask!! I've been meaning to for a while, but I never really had the time, and also, I was just kinda scared T-T. However, my collegue(?) at my co-op challenged me to complete the game by the end of the term, so here we are! The vibes of this games are insane! As the player being the only person who knows about the worlds demise, its bittersweet exploring Clock Town and it's people.",
+        "img":"images/game_images/mm.jpg"
     },
     {
         "id":"log2",
         "content":"Blah, blah, blah2",
-        "img":"images/test_img2.jpg"
+        "img":"images/game_images/test_img2.jpg"
     }
 ]
