@@ -521,11 +521,11 @@ header h1, h2{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    transition: all 0.2s ease;
+    transition: all 0.5s ease;
 }
 
 #random-gif:hover{
-    transform: scale(1.20) rotate(-360deg);
+    transform: scale(1.20) rotate(-365deg);
 }
 
 #random-gif img{
@@ -609,4 +609,68 @@ header h1, h2{
 
 #content-img{
     width: 100%;
+}
+
+/*About Me Styling*/
+
+#about-header{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.about-container main{
+    width: 40%;
+}
+
+.about-container #left-aside{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#left-aside #icon{
+    width: 300px;
+    height: 300px;
+    background-color: #6f9cc5;
+}
+
+#profile-info{
+    width: 300px;
+    height: 150px;
+    border: #124f7b 2px solid;
+    padding: 10px;
+}
+
+#profile-info p{
+    margin: 20px;
+}
+
+.about-container #right-aside{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+#right-aside .stat-bar{
+    width: 100%;
+    height: 25px;
+    border: #124f7b 2px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+
+#right-aside .stat-section{
+    width: 40px;
+    height: 22px;
+    background-color: #618eb6;
 }
