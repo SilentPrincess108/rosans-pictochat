@@ -337,7 +337,7 @@ header h1, h2{
 }
 
 .chat-box:hover{
-    transform: scale(1.03) rotate(1deg);
+    transform: scale(1.03);
     box-shadow: 0px 3px 15px #6f9cc5;
 }
 
@@ -547,11 +547,6 @@ header h1, h2{
     text-align: center;
 }
 
-#right-aside div{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 #memes{
     border: 3px solid #6f9cc5;
     border-radius: 10px;
@@ -649,7 +644,23 @@ header h1, h2{
     height: 350px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    box-shadow: 0px 3px 10px #6f9cc5;
     background-color: #6f9cc5;
+    transition: all 0.1s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon:hover{
+    transform: scale(1.03);
+}
+
+#pfp{
+    width: 75%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 #profile-info{
@@ -657,10 +668,20 @@ header h1, h2{
     padding: 10px;
 }
 
-#info-container{
+.info-container{
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+
+#side-img{
+    width: 100%;
+    filter: drop-shadow(5px 5px 10px #124f7b);
+    transition: all 0.2s ease;
+}
+
+#side-img:hover{
+    transform: scale(1.06) rotate(2deg);
 }
 
 .about-container #right-aside{
@@ -704,4 +725,28 @@ header h1, h2{
 
 #last{
     border-bottom-right-radius: 10px;
+}
+
+/*My Game Page Styling*/
+
+.game-project-container{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    justify-content: center;
+}
+
+.file-section{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.file-section header{
+    padding: 15px;
+}
+
+.info-section{
+    width: 40%;
 }
