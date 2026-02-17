@@ -1,0 +1,9 @@
+[
+    {
+        "name":"game name",
+        "start":"MM/DD/YYYY",
+        "end":"MM/DD/YYYY",
+        "genre":"insert genre",
+        "img":"img path"
+    }
+]
