@@ -954,8 +954,15 @@ hr{
     border-radius: 10px;
     box-shadow: 0px 3px 10px #6f9cc5;
     transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .selection:hover{
     transform: scale(1.05);
+}
+
+#model-img{
+    width: 100%;
 }
