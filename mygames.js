@@ -23,9 +23,9 @@ project.forEach(item =>{
             if (item.id == game.name){
                 game_name.innerText = game.name;
                 synopsis.innerText = game.synopsis;
-                start.innerText = game.start;
-                end.innerText = game.end;
-                genre.innerText = game.genre;
+                start.innerText = "Start Date: " + game.start;
+                end.innerText = "Finish Date: " + game.end;
+                genre.innerText = "Genre: " + game.genre;
                 img.setAttribute("src", game.img);
                 link.setAttribute("href", game.link);
             }

@@ -344,7 +344,7 @@ header h1, h2{
     box-shadow: 0px 3px 15px #6f9cc5;
 }
 
-.chat-box h3{
+.chat-box h3, #model-info h3{
     display: inline;
     background-color: #6f9cc5;
     color: whitesmoke;
@@ -808,7 +808,13 @@ header h1, h2{
     height: 200px;
     background-color: #618eb6;
     transition: all 0.2s ease;
+    border-radius: 10px;
     box-shadow: 0px 3px 10px #6f9cc5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: whitesmoke;
 }
 
 .file:hover{
@@ -835,12 +841,14 @@ header h1, h2{
     flex-direction: column;
     gap: 20px;
     padding: 10px;
+    padding-right: 0px;
     align-items: center;
 }
 
 #project-title{
     text-align: center;
     margin: 10px;
+    margin-top: 20px;
 }
 
 #game-info{
@@ -850,6 +858,7 @@ header h1, h2{
 #game-img{
     width: 50%;
     height: 200px;
+    margin: 10px;
 }
 
 #play-link{
@@ -879,4 +888,74 @@ header h1, h2{
 
 #play-button p{
     margin: 0%;
+}
+
+hr{
+    width: 100%;
+}
+
+/*3d Design Styling*/
+
+.design-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 30px;
+}
+
+.selected-design{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.model-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#model{
+    width: 50%;
+    aspect-ratio: 1/1.5;
+    background-color: #618eb6;
+}
+
+#model-info{
+    width: 55%;
+    aspect-ratio: 1/0.5;
+    background-color: whitesmoke;
+    border: 3px solid #6f9cc5;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px #6f9cc5;
+}
+
+.design-gallery{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.gallery-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.selection{
+    width: 200px;
+    aspect-ratio: 1/1;
+    border: 5px solid #618eb6;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px #6f9cc5;
+    transition: all 0.2s ease;
+}
+
+.selection:hover{
+    transform: scale(1.05);
 }
