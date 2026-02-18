@@ -1,9 +1,29 @@
 [
     {
-        "name":"game name",
-        "start":"MM/DD/YYYY",
-        "end":"MM/DD/YYYY",
-        "genre":"insert genre",
-        "img":"img path"
+        "name":"Get Out",
+        "synopsis":"A 2D puzzle/point & click game where you play as a ghost trying to scare people!",
+        "start":"07/17/2025",
+        "end":"N/A",
+        "genre":"Puzzle",
+        "img":"images/game_images/get-out.png",
+        "link":"https://pixelprincess09.itch.io/get-out"
+    },
+    {
+        "name":"Console Chronicles",
+        "synopsis":"A 2D platformer where you explore retro-console themed worlds and discover their history!",
+        "start":"08/24/2025",
+        "end":"N/A",
+        "genre":"Platformer",
+        "img":"images/game_images/cc.jpg",
+        "link":"https://pixelprincess09.itch.io/console-chronicles"
+    },
+    {
+        "name":"Chiikawa's Adventure",
+        "synopsis":"A 2D platformer where Chiikawa needs to collect food for a picnic with his friends!",
+        "start":"01/05/2026",
+        "end":"N/A",
+        "genre":"Platformer",
+        "img":"images/game_images/chiikawa-adventure.jpg",
+        "link":"https://pixelprincess09.itch.io/chiikawas-adventures"
     }
 ]
