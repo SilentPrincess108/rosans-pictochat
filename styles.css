@@ -890,9 +890,6 @@ header h1, h2{
     margin: 0%;
 }
 
-hr{
-    width: 100%;
-}
 
 /*3d Design Styling*/
 
@@ -965,4 +962,62 @@ hr{
 
 #model-img{
     width: 100%;
+}
+
+.resources-container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.resources-main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#resources-title{
+    padding: 20px;
+}
+
+.link-section{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    overflow: scroll;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.link-boxes{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    border: 5px solid  #618eb6;
+    border-radius: 20px;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    font-size: 30px;
+}
+
+#link-img{
+    width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+}
+
+#link-info{
+    width: 75%;
+}
+
+#link-info a{
+    color: #124f7b;
+}
+
+#link-title{
+    margin: 20px;
 }
