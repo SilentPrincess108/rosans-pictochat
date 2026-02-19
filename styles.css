@@ -970,7 +970,9 @@ header h1, h2{
     gap: 50px;
 }
 
-.resources-container #left-aside, #right-aside{
+/*Resources Styling*/
+
+.resources-container #left-aside, .resources-container #right-aside{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1034,3 +1036,44 @@ header h1, h2{
     border: 3px solid #618eb6;
     border-radius: 10pxMy pass;
 }
+
+/*Devlog Styling*/
+
+.devlogs-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+#devlog-title{
+    padding: 25px;
+}
+
+.devlog-container header{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.devlogs-container #left-aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.devlog-container #right-aside{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sticker{
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+}
+
