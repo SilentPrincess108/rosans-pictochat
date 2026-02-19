@@ -1077,3 +1077,25 @@ header h1, h2{
     width: 75%;
 }
 
+#home{
+    text-decoration: none;
+    color: whitesmoke;
+    width: 80px;
+}
+
+.home-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    background-color: #618eb6;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px #6f9cc5;
+    margin: 20px;
+    text-align: center;
+}
+
+.home-button p{
+    margin: 0%;
+}
